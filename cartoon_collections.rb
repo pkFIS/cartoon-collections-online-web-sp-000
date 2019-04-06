@@ -1,7 +1,10 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
-  array.each do |dwarf|
-    puts "#{dwarf}"
+  counter = 1
+  while counter <= array.length
+    #array.each do |dwarf|
+    puts counter + array[counter -1]
+    counter += 1
   end
 end
 
